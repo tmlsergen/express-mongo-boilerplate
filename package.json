@@ -1,0 +1,29 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "express - mongo boilerplate",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "tmlsergen@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.13.1",
+    "yaml": "^2.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
+}
